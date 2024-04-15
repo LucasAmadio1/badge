@@ -37,13 +37,13 @@ export default function Register() {
           <Input.Field placeholder='E-mail' keyboardType='email-address'/>
         </Input>
 
-        <Button title="Acessar credencial"/>
+        <Button title="Realizar inscrição"/>
 
         <Link
-          href="/register"
+          href="/"
           className="text-gray-100 text-base font-bold text-center mt-8"
         >
-          Ainda não possui ingresso?
+          Já possui ingresso?
         </Link>
 
       </View>
