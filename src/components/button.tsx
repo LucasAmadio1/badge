@@ -5,9 +5,10 @@ type Props  = TouchableOpacityProps & {
   isLoading?: boolean
 }
 
-export function Button({ title, isLoading = false}: Props) {
+export function Button({ title, isLoading = false, ...props}: Props) {
   return (
-    <TouchableOpacity 
+    <TouchableOpacity
+      {...props}
       activeOpacity={0.6}
       disabled={isLoading}
       className="w-full h-14 bg-orange-500 items-center justify-center rounded-lg"
