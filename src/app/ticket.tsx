@@ -69,7 +69,7 @@ export default function Ticket() {
         <Button title="Compartilhar" />
 
         <TouchableOpacity activeOpacity={0.6} className="mt-10">
-           <Text className="text-base text-white font-bold s">Remover Ingresso</Text>
+           <Text className="text-base text-white font-bold text-center">Remover Ingresso</Text>
         </TouchableOpacity>
       </ScrollView> 
     </View>
